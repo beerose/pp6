@@ -1,0 +1,6 @@
+fun f(l:int list):int = 
+match l with
+| [] -> 1
+| x::xs -> 0
+in
+1

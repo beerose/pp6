@@ -1,0 +1,13 @@
+fun second(xs : int list) : int = 
+	match xs with
+	| [] -> 0
+	| y :: ys -> head(ys)
+
+fun head(ys:int list):int = match ys with
+	| [] -> -1
+	| z :: zs -> z
+
+in
+
+let l = [1, 7, 6, 3, 4, 5] : int list in
+		second(l)

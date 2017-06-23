@@ -1,0 +1,8 @@
+fun f(n:int):bool = 
+if n < 0 then true 
+else false 
+
+input n in 
+
+if f(-n) then 1
+else -1

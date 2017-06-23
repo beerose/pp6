@@ -1,0 +1,7 @@
+fun apply(params: int * int):int = 
+                                   let f = fst params in 
+                                   let x = snd params in 
+                                   f
+                                   input x  
+                                   in 
+                                apply(fn(x:int) -> x + x + x, 7)

@@ -1,0 +1,5 @@
+fun f1(x:int):int = 1
+fun f2(x:int):int = f1(x)
+input x
+in 
+f2(x)

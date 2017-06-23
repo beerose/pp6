@@ -1,0 +1,6 @@
+fun f(ys:int list):int = match ys with
+	| [] -> -1
+	| z :: zs -> z
+in
+let l = []:int list in
+		f(l)

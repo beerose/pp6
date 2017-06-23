@@ -1,0 +1,7 @@
+fun sum(ll:int list):int =
+    match ll with 
+    | [] -> 0
+    | x::xs -> x + sum(xs)
+in
+let x = 1::2::3::4::5::[]:int list 
+in sum(x)

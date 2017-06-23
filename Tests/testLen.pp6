@@ -1,0 +1,8 @@
+fun length(xs : int list) : int = 
+	match xs with
+	| [] -> 0
+	| y :: ys -> 1 + length(ys)
+
+in
+let l = 1::2::3::[] : int list in
+		length(l)

@@ -1,0 +1,6 @@
+input x in
+let y = 5 in
+let multiply = 
+    fn(x:int) -> x * y
+in 
+multiply

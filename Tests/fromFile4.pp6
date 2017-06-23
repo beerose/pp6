@@ -1,0 +1,4 @@
+fun f1(x:int):int = x + x
+fun f2(x:int):int = x * x
+input x y
+in f1(x) + f2(x) + f1(y) + f2 (y)

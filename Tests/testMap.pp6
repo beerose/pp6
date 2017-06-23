@@ -1,0 +1,21 @@
+fun takeN(x:int*int list):int =
+    let n = fst x in
+    let l = snd x in
+    match l with   
+        |[] -> 0
+        |y::ys -> if n = 1 then y
+                    else takeN(n-1, ys)
+
+fun f(xx:(int list*int list)*int):int =
+    let map = fst xx in
+    let keys = fst map in
+    let values = snd map in
+    let e = snd xx in
+    takeN(takeN(e, keys),values)
+    
+
+input elem 
+in
+let k = [1,2,3,4,5]:int list in
+let v = [10, 20, 30, 40, 50]:int list
+in f((k, v), elem)

@@ -1,0 +1,21 @@
+fun f(x:int*int list):int list =
+    let n = fst x in
+    let l = snd x in
+
+    if n = 0 then l
+    else
+    n::l::[]:int list
+
+fun length(xs : int list) : int = 
+	match xs with
+	| [] -> 0
+	| y :: ys -> 
+    let u = length(ys)
+    in 1 + u
+
+in 
+
+let lis = 1::[]:int list in
+let res = f(100,lis) in 
+length(res)
+ 

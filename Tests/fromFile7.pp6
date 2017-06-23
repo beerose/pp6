@@ -1,0 +1,9 @@
+fun exp(n:int):int =
+if n <= 0 then 1
+else exp(n-1) * n
+
+input n
+
+in
+
+exp(n)

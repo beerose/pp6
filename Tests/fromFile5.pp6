@@ -1,0 +1,11 @@
+fun f1(x:int):int = x
+fun f2(x:int):int = x+1
+fun f3(x:int):int = x+2
+fun f4(x:int):int = x+3
+fun f5(x:int):int = x+4
+
+input x
+
+in 
+
+f1(1)*f2(1)*f3(1)*f4(1)*f5(1)

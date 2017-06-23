@@ -1,0 +1,8 @@
+fun first(xs : int list) : int = 
+	match xs with
+	| [] -> 0
+	| y :: ys -> y
+
+in
+let l = [1, 7, 6, 3, 4, 5] : int list in
+		first(l)

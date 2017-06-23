@@ -1,0 +1,2 @@
+fun addPairs (a:(int*int)*(int*int)):int = 1
+in addPairs(1,2)
