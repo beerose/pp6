@@ -1,6 +1,6 @@
 {-# LANGUAGE Safe #-}
 
-module AleksandraSikora where
+module Solution where
 
 import           AST
 import           DataTypes
